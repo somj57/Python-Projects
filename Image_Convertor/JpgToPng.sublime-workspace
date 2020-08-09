@@ -1,0 +1,237 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"iamge",
+				"Image"
+			],
+			[
+				"cl",
+				"clean_name"
+			],
+			[
+				"fro",
+				"for\tFor Loop"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"mysql_n",
+				"mysql_num_rows"
+			],
+			[
+				"my",
+				"mysql_query"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Python 3/Python3.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python 3/Python3.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/somyajaiswal/Desktop/python/Image_Convertor/JpgToPng.py",
+		"/Users/somyajaiswal/Desktop/python/image_processor/image.py",
+		"/Users/somyajaiswal/Desktop/python/image.py",
+		"/Users/somyajaiswal/Desktop/python/trans.py",
+		"/Users/somyajaiswal/Desktop/python/test.txt",
+		"/Users/somyajaiswal/Desktop/trans.py",
+		"/Users/somyajaiswal/Desktop/test.txt",
+		"/Users/somyajaiswal/Desktop/read.py",
+		"/Applications/MAMP/Library/etc/ImageMagick-6/mime.xml",
+		"/Users/somyajaiswal/Desktop/webapps/index.html",
+		"/Applications/MAMP/htdocs/login.php",
+		"/Users/somyajaiswal/Desktop/som.bat",
+		"/Users/somyajaiswal/Desktop/arduino.html",
+		"/Users/somyajaiswal/Downloads/JSPDemo.java",
+		"/Users/somyajaiswal/Documents/hellow.c",
+		"/Users/somyajaiswal/Desktop/programs/SJF.CPP",
+		"/Users/somyajaiswal/Desktop/programs/FCFS.CPP"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 249.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "JpgToPng.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
