@@ -28,13 +28,24 @@ def add_command():
     backend.insert(title_text.get(),author_text.get(),year_text.get(),isbn_text.get())
     list1.delete(0,END)
     list1.insert(END,(title_text.get(),author_text.get(),year_text.get(),isbn_text.get()))
+    view_command()
 
 def delete_command():
     backend.delete(selected_tuple[0])
     view_command()
 
-def update_command():
+def update_comm and():
     backend.update(selected_tuple[0],title_text.get(),author_text.get(),year_text.get(),isbn_text.get())
+    list1.delete(0,END)
+    for row in backend.search(title_text.get(),author_text.get(),year_text.get(),isbn_text.get()):
+        list1.insert(END,row)   
+
+def clear_command():
+    e1.delete(0,END)
+    e2.delete(0,END)
+    e3.delete(0,END)
+    e4.delete(0,END)
+    list1.delete(0,END)
 
 window=Tk()
 
@@ -68,8 +79,8 @@ isbn_text=StringVar()
 e4=Entry(window,textvariable=isbn_text)
 e4.grid(row=1,column=3)
 
-list1=Listbox(window, height=6,width=35)
-list1.grid(row=2,column=0,rowspan=6,columnspan=2)
+list1=Listbox(window, height=8,width=35)
+list1.grid(row=3,column=0,rowspan=6,columnspan=2)
 
 sb1=Scrollbar(window)
 sb1.grid(row=2,column=2,rowspan=6)
@@ -96,5 +107,8 @@ b5.grid(row=6,column=3)
 
 b6=Button(window,text="Close", width=12,command=window.destroy)
 b6.grid(row=7,column=3)
+
+b7=Button(window,text="Clear",width=12,command=clear_command)
+b7.grid(row=8,column=3)
 
 window.mainloop()
