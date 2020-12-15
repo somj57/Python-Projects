@@ -1,7 +1,7 @@
 '''__author__ =Somya Jaiswal
 pip3 install pygame
 pip3 install thinker
-
+play at your own risk
 
 '''
 import math
