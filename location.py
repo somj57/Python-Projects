@@ -1,6 +1,7 @@
 import requests
 
 res = requests.get('https://ipinfo.io/')
+# the above function takes information of your isp and grabs its information
 data=res.json()
 
 city = data['city']
