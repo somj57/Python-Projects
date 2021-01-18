@@ -9,7 +9,7 @@ make a excel file as email.xlsx and store emails in it
 import pandas as pd
 import smtplib
 
-SenderAddress = "Sender Email Address"
+SenderAddress = "Sender Email Address....."
 password = "Password of sender"
 
 e = pd.read_excel("email.xlsx")
