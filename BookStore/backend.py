@@ -1,5 +1,6 @@
 import sqlite3
 
+# lets make connection to database and it will be created if not existe
 def connect():
     conn=sqlite3.connect("books.db")
     cur=conn.cursor()
