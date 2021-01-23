@@ -1,3 +1,4 @@
+# Simple Dictionary project
 import json
 import difflib
 
