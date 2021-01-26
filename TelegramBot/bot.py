@@ -2,6 +2,8 @@ import requests
 import json
 import configparser as cfg
 
+#Visit telegram.api for getting your api key
+
 
 class telegram_chatbot():
 
