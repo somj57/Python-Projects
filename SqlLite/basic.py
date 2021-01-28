@@ -1,5 +1,6 @@
 '''
 ("UPDATE store  SET Email=?,Phno=? WHERE Name=?"(email,phon,name))
+Python3 comes with sql lite preinstalled
 '''
 
 import sqlite3
